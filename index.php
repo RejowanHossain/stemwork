@@ -40,19 +40,19 @@
 							<input name="input" type="text" class="form-control hide-input">
 						</li>
 						<li class="dropdown">
-							<a href="login.html" class="dropdown-toggle" data-toggle="dropdown">Jobs</a>
+							<a href="employee-joblist.php" class="dropdown-toggle">Jobs</a>
 						</li>
 						<li class="dropdown">
-							<a href="login.html" class="dropdown-toggle" data-toggle="dropdown">Employers</a>
+							<a href="employers.php" class="dropdown-toggle">Employers</a>
 						</li>
 						
-						<li class="dropdown megamenu-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+						<li class="dropdown megamenu-fw"><a href="about.php" class="dropdown-toggle">About</a>
 						</li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 						<!-- <li><a href="register.html"><i class="fa fa-sign-in"></i>Sign Up</a></li> -->
-						<li><a href="job-list.html"  data-toggle="modal" data-target="#signup" class="findjob-btn">Find Jobs</a></li>
-						<li><a href="employee-register.php"  class="signin">Post Job</a></li>
+						<li><a href="employee-joblist.php" class="findjob-btn">Find Jobs</a></li>
+						<li><a href="company-register.php"  class="signin">Post Job</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div>   
@@ -80,7 +80,7 @@
 												<div class="input-with-icon">
 													<input type="text" name="skill" class="form-control b-r"
 														placeholder="Enter your skill">
-													<i class="ti-search"></i>
+													<i class="theme-cl ti-search"></i>
 												</div>
 											</div>
 										</div>
@@ -95,7 +95,7 @@
 														<option>Hybrid</option>
 														<option>Contractual</option>
 													</select>
-													<i class="ti-layers"></i>
+													<i class="theme-cl ti-layers"></i>
 												</div>
 											</div>
 										</div>
@@ -105,7 +105,7 @@
 												<div class="input-with-icon">
 													<input type="text" name="city" class="form-control b-r"
 														placeholder="Enter your City">
-													<i class="ti-location-pin"></i>
+													<i class="theme-cl ti-location-pin"></i>
 												</div>
 											</div>
 										</div>
@@ -113,8 +113,8 @@
 										<div class="col-lg-2 col-md-2 col-sm-12 small-padd">
 											<div class="form-group">
 												<div class="form-group">
-													<a href="browse-jobs-grid.html"
-														class="btn btn-primary search-btn">Search
+													<a href="employee-joblist.php"
+														class="btn btn-primary search-btn">Search Jobs
 													</a>
 												</div>
 											</div>
@@ -169,7 +169,7 @@
 				
 				<div class="row">
 					<div class="main-heading">
-						<p>Most Viewed Jobs</p>
+						<p>New Circulars</p>
 						<h2>New & Featured <span>Jobs</span></h2>
 					</div>
 				</div>
@@ -382,63 +382,63 @@
 		<div class="clearfix"></div>
 		<!-- Latest Job End-->
 
-	<!-- ====================== How It Work ================= -->
-		<section class="how-it-works">
-			<div class="container">
+		<!-- ====================== How It Work ================= -->
+			<section class="how-it-works">
+				<div class="container">
 
-				<div class="row" data-aos="fade-up">
-					<div class="col-md-12">
-						<div class="main-heading">
-							<p>Working Process</p>
-							<h2>How It <span>Works</span></h2>
+					<div class="row" data-aos="fade-up">
+						<div class="col-md-12">
+							<div class="main-heading">
+								<p>Working Process</p>
+								<h2>How It <span>Works</span></h2>
+							</div>
 						</div>
 					</div>
+
+					<div class="row">
+
+						<div class="col-md-4 col-sm-4">
+							<div class="working-process">
+								<span class="process-img">
+									<img src="assets/img/step-1.png" class="img-responsive" alt="" />
+									<span class="process-num">01</span>
+								</span>
+								<h4>Create An Account</h4>
+								<p>Post a job to tell us about your project. We'll quickly match you with the right
+									freelancers find place best.</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-4">
+							<div class="working-process">
+								<span class="process-img">
+									<img src="assets/img/step-2.png" class="img-responsive" alt="" />
+									<span class="process-num">02</span>
+								</span>
+								<h4>Search Jobs</h4>
+								<p>Post a job to tell us about your project. We'll quickly match you with the right
+									freelancers find place best.</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-4">
+							<div class="working-process">
+								<span class="process-img">
+									<img src="assets/img/step-3.png" class="img-responsive" alt="" />
+									<span class="process-num">03</span>
+								</span>
+								<h4>Save & Apply</h4>
+								<p>Post a job to tell us about your project. We'll quickly match you with the right
+									freelancers find place best.</p>
+							</div>
+						</div>
+
+					</div>
+
 				</div>
-
-				<div class="row">
-
-					<div class="col-md-4 col-sm-4">
-						<div class="working-process">
-							<span class="process-img">
-								<img src="assets/img/step-1.png" class="img-responsive" alt="" />
-								<span class="process-num">01</span>
-							</span>
-							<h4>Create An Account</h4>
-							<p>Post a job to tell us about your project. We'll quickly match you with the right
-								freelancers find place best.</p>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-sm-4">
-						<div class="working-process">
-							<span class="process-img">
-								<img src="assets/img/step-2.png" class="img-responsive" alt="" />
-								<span class="process-num">02</span>
-							</span>
-							<h4>Search Jobs</h4>
-							<p>Post a job to tell us about your project. We'll quickly match you with the right
-								freelancers find place best.</p>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-sm-4">
-						<div class="working-process">
-							<span class="process-img">
-								<img src="assets/img/step-3.png" class="img-responsive" alt="" />
-								<span class="process-num">03</span>
-							</span>
-							<h4>Save & Apply</h4>
-							<p>Post a job to tell us about your project. We'll quickly match you with the right
-								freelancers find place best.</p>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</section>
-		<div class="clearfix"></div>
-	<!-- ====================== How It Work Ends ================= -->
+			</section>
+			<div class="clearfix"></div>
+		<!-- ====================== How It Work Ends ================= -->
 
 
 		<!-- Candidate Section Start -->
@@ -470,11 +470,11 @@
 		<section class="brows-job-category">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<h2>We found 477 matches jobs, you are watching 7 to 27</h2>
+					<div class="main-heading">
+						<p>Popular Jobs</p>
+						<h2>Most Popular <span>Jobs</span></h2>
 					</div>
 				</div>
-				<!--/.row-->
 				
 				<div class="row">
 					<div class="col-md-12">
@@ -833,87 +833,6 @@
 		</footer>
 		<!-- ============================ Footer End ================================== -->
 
-		<!-- Signin Window Code -->
-		<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2"
-			aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-
-						<div class="new-logwrap">
-
-							<div class="form-group">
-								<label>Username</label>
-								<div class="input-with-icon">
-									<input type="text" class="form-control" placeholder="Enter Your Username">
-									<i class="theme-cl ti-user"></i>
-								</div>
-							</div>
-
-							<div class="form-group">
-								<label>Email</label>
-								<div class="input-with-icon">
-									<input type="email" class="form-control" placeholder="Enter Your Email">
-									<i class="theme-cl ti-email"></i>
-								</div>
-							</div>
-
-							<div class="form-group">
-								<label>Password</label>
-								<div class="input-with-icon">
-									<input type="password" class="form-control" placeholder="Enter Your Password">
-									<i class="theme-cl ti-lock"></i>
-								</div>
-							</div>
-
-							<div class="form-groups">
-								<button type="submit" class="btn btn-primary theme-bg full-width">Register</button>
-							</div>
-
-							<div class="forget-account text-center">
-								<a class="theme-cl" href="#">Forget Password?</a>
-							</div>
-
-							<div class="social-devider">
-								<span class="line"></span>
-								<span class="circle">Or</span>
-							</div>
-
-							<div class="social-login row">
-
-								<div class="col-md-6">
-									<a href="#" class="jb-btn-icon social-login-facebook"><i
-											class="fa fa-facebook"></i>Facebook</a>
-								</div>
-
-								<div class="col-md-6">
-									<a href="#" class="jb-btn-icon social-login-google"><i
-											class="fa fa-google-plus"></i>Google</a>
-								</div>
-
-								<div class="col-md-6">
-									<a href="#" class="jb-btn-icon social-login-twitter"><i
-											class="fa fa-twitter"></i>Twitter</a>
-								</div>
-
-								<div class="col-md-6">
-									<a href="#" class="jb-btn-icon social-login-linkedin"><i
-											class="fa fa-linkedin"></i>Linkedin</a>
-								</div>
-
-							</div>
-
-							<div class="register-account text-center">
-								Don't have an account? <a class="theme-cl" href="register.html">Register</a>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Signin Window -->
 
 		<!-- Scripts
 			================================================== -->

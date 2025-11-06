@@ -184,7 +184,7 @@ h4 {
 
 p {
     position: relative;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     line-height: 23px;
     -webkit-transition: .2s ease-in;
     -moz-transition: .2s ease-in;
@@ -4189,7 +4189,7 @@ footer.skin-dark-footer ul.footer-bottom-social li a:focus {
     position: relative;
     justify-content: center;
     align-items: center;
-    padding: 0 2em 1.50em 2em;
+    padding: 1.5em 2em 1.50em 2em;
     border-radius: 6px;
     background: #ffffff;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
@@ -4406,9 +4406,9 @@ button.btn.btn-default.btn-xs.dropdown-toggle i {
     margin-bottom: 30px;
 }
 
-.brows-job-category h2 {
+/* .brows-job-category h2 {
     font-size: 25px;
-}
+} */
 
 .brows-job-list {
     display: flex;
@@ -9548,6 +9548,8 @@ html body .b-r {
     justify-content: center;
     background: #11b719;
     border: 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
 }
 
 .full-search-2.hero-search-radius {
@@ -12991,5 +12993,41 @@ nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
     font-style: normal;
     cursor: normal;
     margin-left: 20px;
-
+}
+#verificationModal .modal-content{
+    padding: 0;
+}
+#verificationModal .modal-footer{
+    border-top: 0;
+}
+#verificationModal .modal-body .alert{
+    margin-bottom: 0;
+}
+#verificationModal .modal-footer .btn{
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+#verificationModal .modal-footer a:first-child{
+    border: 1px solid #11b719;
+    color: #000;
+}
+#verificationModal .modal-footer a:last-child{
+    border: 1px solid #11b719;
+    background: #11b719;
+}
+/* employee joblist starts */
+.advance-search{
+    margin-top: 80px;
+}
+.ur-detail-wrap-body form .full-width{
+    border-radius: 4px;
+    background: #11b719;
+    border: 1px solid #11b719;    
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    
+}
+.advance-search .job-instructor-layout.fr1{
+    margin-top: 0;
 }

@@ -80,7 +80,7 @@
                                     <div class="form-group">
                                         <label>Official Company Email</label>
                                         <div class="input-with-icon">
-                                            <input type="text" name="work-email" class="form-control" placeholder="(e.g.xyz@company.com)">
+                                            <input type="email" name="work-email" class="form-control" placeholder="(e.g.xyz@company.com)">
                                             <i class="theme-cl ti-email"></i>
                                         </div>
                                     </div>
@@ -110,7 +110,7 @@
                                 </div>
                                 
                                 <div class="form-groups">
-                                    <a href="verification-pending.php" class="btn btn-primary theme-bg full-width">Submit Credentials</a>
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#verificationModal" class="btn btn-primary theme-bg full-width">Submit Credentials</a>
                                 </div>
 
                                 </div>
@@ -122,6 +122,29 @@
 				</div>
 			</section>
 			<!-- Tab section End -->
+
+			<!-- Verification Modal starts -->
+			<div class="modal fade" id="verificationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+					<!-- <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div> -->
+					<div class="modal-body">
+						<div class="alert alert-success" role="alert">
+						✅ Company verification submitted! Thanks! We’ll review your information and notify you through your company email once verified. Typically, this takes 1–2 business days.
+						</div>
+					</div>
+					<div class="modal-footer">
+						<a href="index.php" class="btn btn-secondary">Go to home</a>
+						<a href="employer-dashboard.php" class="btn btn-primary">Go to dashboard</a>
+					</div>
+					</div>
+				</div>
+			</div>
+			<!-- Verification Modal Ends -->
 			
 			<!-- ============================ Call To Action ================================== -->
 			<!-- <section class="theme-bg call-to-act-wrap">

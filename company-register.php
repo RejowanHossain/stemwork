@@ -211,12 +211,12 @@
 										</div>
 									</div>
 									
-									<div class="register-account text-center">
-										By hitting the <span class="theme-cl">"Register"</span> button, you agree to the <a class="theme-cl" href="#">Terms conditions</a> and <a class="theme-cl" href="#">Privacy Policy</a>
-									</div>
+									<!-- <div class="register-account text-center">
+										By hitting the <span class="theme-cl">"Start Verification"</span> button, you agree to the <a class="theme-cl" href="#">Terms conditions</a> <br>and <a class="theme-cl" href="#">Privacy Policy</a>
+									</div> -->
 									
 									<div class="form-groups">
-										<a href="company-verify.php" class="btn btn-primary theme-bg full-width">Register</a>
+										<a href="company-verify.php" class="btn btn-primary theme-bg full-width">Start Verification</a>
 									</div>
 									
 									<!-- <div class="social-devider">
