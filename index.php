@@ -181,8 +181,8 @@
 					<!-- Single New Job -->
 					<div class="col-md-3 col-sm-6">
 						<div class="job-instructor-layout">
-							<span class="tg-themetag tg-featuretag">Premium</span>
-							<div class="brows-job-type"><span class="freelanc">Contractual</span></div>
+							<span class="tg-themetag tg-featuretag">Featured</span>
+							<div class="brows-job-type"><span class="contract">Contractual</span></div>
 							<div class="job-instructor-thumb">
 								<a href="job-detail-2.html"><img src="assets/img/com-2.jpg" class="img-fluid" alt="" /></a>
 							</div>
@@ -254,7 +254,7 @@
 					<!-- Single New Job -->
 					<div class="col-md-3 col-sm-6">
 						<div class="job-instructor-layout">
-							<span class="tg-themetag tg-featuretag">Premium</span>
+							<span class="tg-themetag tg-featuretag">Featured</span>
 							<div class="brows-job-type"><span class="freelanc">Hybrid</span></div>
 							<div class="job-instructor-thumb">
 								<a href="job-detail-2.html"><img src="assets/img/com-5.jpg" class="img-fluid" alt="" /></a>
@@ -279,7 +279,7 @@
 					<!-- Single New Job -->
 					<div class="col-md-3 col-sm-6">
 						<div class="job-instructor-layout">
-							<div class="brows-job-type"><span class="part-time">Onsite</span></div>
+							<div class="brows-job-type"><span class="full-time">Onsite</span></div>
 							<div class="job-instructor-thumb">
 								<a href="job-detail-2.html"><img src="assets/img/com-6.jpg" class="img-fluid" alt="" /></a>
 							</div>
@@ -303,8 +303,8 @@
 					<!-- Single New Job -->
 					<div class="col-md-3 col-sm-6">
 						<div class="job-instructor-layout">
-							<span class="tg-themetag tg-featuretag">Premium</span>
-							<div class="brows-job-type"><span class="full-time">Remote</span></div>
+							<span class="tg-themetag tg-featuretag">Featured</span>
+							<div class="brows-job-type"><span class="part-time">Remote</span></div>
 							<div class="job-instructor-thumb">
 								<a href="job-detail-2.html"><img src="assets/img/com-7.jpg" class="img-fluid" alt="" /></a>
 							</div>
@@ -352,8 +352,8 @@
 					<!-- Single New Job -->
 					<div class="col-md-3 col-sm-6">
 						<div class="job-instructor-layout">
-							<span class="tg-themetag tg-featuretag">Premium</span>
-							<div class="brows-job-type"><span class="full-time">Hybrid</span></div>
+							<span class="tg-themetag tg-featuretag">Featured</span>
+							<div class="brows-job-type"><span class="freelanc">Hybrid</span></div>
 							<div class="job-instructor-thumb">
 								<a href="job-detail-2.html"><img src="assets/img/com-1.jpg" class="img-fluid" alt="" /></a>
 							</div>
@@ -383,61 +383,62 @@
 		<!-- Latest Job End-->
 
 		<!-- ====================== How It Work ================= -->
-			<section class="how-it-works">
-				<div class="container">
+		<section class="how-it-works">
+			<div class="container">
 
-					<div class="row" data-aos="fade-up">
-						<div class="col-md-12">
-							<div class="main-heading">
-								<p>Working Process</p>
-								<h2>How It <span>Works</span></h2>
-							</div>
+				<div class="row" data-aos="fade-up">
+					<div class="col-md-12">
+						<div class="main-heading">
+							<p>Working Process</p>
+							<h2>How It <span>Works</span></h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+
+					<div class="col-md-4 col-sm-4">
+						<div class="working-process">
+							<span class="process-img">
+								<img src="assets/img/step-1.png" class="img-responsive" alt="" />
+								<span class="process-num">01</span>
+							</span>
+							<h4>Create An Account</h4>
+							<p>Sign up as an employer or job seeker to get started.
+								Verified employers can post openings, and skilled candidates can build profiles to stand out.
+							</p>
 						</div>
 					</div>
 
-					<div class="row">
-
-						<div class="col-md-4 col-sm-4">
-							<div class="working-process">
-								<span class="process-img">
-									<img src="assets/img/step-1.png" class="img-responsive" alt="" />
-									<span class="process-num">01</span>
-								</span>
-								<h4>Create An Account</h4>
-								<p>Post a job to tell us about your project. We'll quickly match you with the right
-									freelancers find place best.</p>
-							</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="working-process">
+							<span class="process-img">
+								<img src="assets/img/step-2.png" class="img-responsive" alt="" />
+								<span class="process-num">02</span>
+							</span>
+							<h4>Search Jobs</h4>
+							<p>Employers can list tech roles in seconds.
+							Job seekers can browse openings and discover positions that match their skills and location</p>
 						</div>
+					</div>
 
-						<div class="col-md-4 col-sm-4">
-							<div class="working-process">
-								<span class="process-img">
-									<img src="assets/img/step-2.png" class="img-responsive" alt="" />
-									<span class="process-num">02</span>
-								</span>
-								<h4>Search Jobs</h4>
-								<p>Post a job to tell us about your project. We'll quickly match you with the right
-									freelancers find place best.</p>
-							</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="working-process">
+							<span class="process-img">
+								<img src="assets/img/step-3.png" class="img-responsive" alt="" />
+								<span class="process-num">03</span>
+							</span>
+							<h4>Save & Apply</h4>
+							<p>Apply or shortlist the right personnel.
+								Every connection happens through verified profiles, ensuring genuine opportunities on both sides.</p>
 						</div>
-
-						<div class="col-md-4 col-sm-4">
-							<div class="working-process">
-								<span class="process-img">
-									<img src="assets/img/step-3.png" class="img-responsive" alt="" />
-									<span class="process-num">03</span>
-								</span>
-								<h4>Save & Apply</h4>
-								<p>Post a job to tell us about your project. We'll quickly match you with the right
-									freelancers find place best.</p>
-							</div>
-						</div>
-
 					</div>
 
 				</div>
-			</section>
-			<div class="clearfix"></div>
+
+			</div>
+		</section>
+		<div class="clearfix"></div>
 		<!-- ====================== How It Work Ends ================= -->
 
 
@@ -446,19 +447,17 @@
 			<div class="container-fluid">
 				<div class="col-md-6 col-sm-6 no-padd bl-dark">
 					<div class="call-to-act-caption">
-						<h2>We Are Expert In Web design and development</h2>
-						<h3>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-							laudantium, totam rem aperiam, eaque ipsa quae ab illo</h3>
-						<a href="#" class="btn bat-call-to-act">Hire Us</a>
+						<h2>Build Your Team With The Right People Who Care</h2>
+						<h3>Hire pre-assessed developers, designers, and marketers <br>all verified through our platform.</h3>
+						<a href="company-register.php" class="btn bat-call-to-act">Hire Now</a>
 					</div>
 				</div>
 
 				<div class="col-md-6 col-sm-6 no-padd gr-dark">
 					<div class="call-to-act-caption">
-						<h2>We Are Expert In Web design and development</h2>
-						<h3>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-							laudantium, totam rem aperiam, eaque ipsa quae ab illo</h3>
-						<a href="#" class="btn bat-call-to-act">Join Us</a>
+						<h2>Join a Community of Skilled Professionals</h2>
+						<h3>Create your profile, take skill assessments, and get discovered by leading employers.</h3>
+						<a href="employee-register.php" class="btn bat-call-to-act">Join Now</a>
 					</div>
 				</div>
 
@@ -504,7 +503,7 @@
 										</div>
 									</div>
 								</div>
-								<span class="tg-themetag tg-featuretag">Premium</span>
+								<span class="tg-themetag tg-featuretag">Featured</span>
 							</article>
 						</div>
 						
@@ -561,7 +560,7 @@
 										</div>
 									</div>
 								</div>
-								<span class="tg-themetag tg-featuretag">Premium</span>
+								<span class="tg-themetag tg-featuretag">Featured</span>
 							</article>
 						</div>
 						
@@ -618,7 +617,7 @@
 										</div>
 									</div>
 								</div>
-								<span class="tg-themetag tg-featuretag">Premium</span>
+								<span class="tg-themetag tg-featuretag">Featured</span>
 							</article>
 						</div>
 						
@@ -678,10 +677,11 @@
 
 						<div class="call-to-act">
 							<div class="call-to-act-head">
-								<h3>Want to Become a Success Employers?</h3>
-								<span>We'll help you to grow your career and growth.</span>
+								<h3>Build Your Team With <br>Varified Talent</h3>
+								<span>Every candidate is pre-assessed and verified. 
+								<br>So you can build your team with confidence and peace of mind.</span>
 							</div>
-							<a href="#" class="btn btn-call-to-act">SignUp Today</a>
+							<a href="#" class="btn btn-call-to-act">Join Now</a>
 						</div>
 
 					</div>
@@ -691,7 +691,7 @@
 		<!-- ============================ Call To Action End ================================== -->
 
 		<!-- ============================ Before Footer ================================== -->
-		<div class="before-footer">
+		<!-- <div class="before-footer">
 			<div class="container">
 				<div class="row">
 
@@ -718,7 +718,7 @@
 
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- ============================ Before Footer ================================== -->
 
 		<!-- ============================ Footer Start ================================== -->
@@ -729,7 +729,7 @@
 
 						<div class="col-lg-3 col-md-3">
 							<div class="footer-widget">
-								<img src="assets/img/logo-white.png" class="img-footer" alt="" />
+								<img src="assets/img/logo/logo-white.svg" class="img-footer" alt="logo-white" />
 								<div class="footer-add">
 									<p>Collins Street West, Victoria,</br> Australia (AU4578).</p>
 									<p><strong>Email:</strong></br>hello@jobstock.com</p>
@@ -814,8 +814,16 @@
 					<div class="row align-items-center">
 
 						<div class="col-lg-6 col-md-6">
-							<p class="mb-0">© 2019 Job Stock. Designd By <a href="https://themezhub.com">Themez Hub</a>
+							<p class="mb-0">© <span id="year"></span> Stemwork. Designd By <a href="#">Stemwork</a>
 								All Rights Reserved</p>
+							<script>
+								// Get the current year
+								const currentYear = new Date().getFullYear();
+
+								// Update the span content
+								document.getElementById("year").textContent = currentYear;
+							</script>
+							
 						</div>
 
 						<div class="col-lg-6 col-md-6 text-right">
