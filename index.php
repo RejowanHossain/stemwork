@@ -27,9 +27,9 @@
 				</button>
 				<!-- Start Header Navigation -->
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html">
-						<img src="assets/img/logo.png" class="logo logo-display" alt="">
-						<img src="assets/img/logo.png" class="logo logo-scrolled" alt="">
+					<a class="navbar-brand" href="index.php">
+						<img src="assets/img/logo/logo.svg" class="logo logo-display" alt="">
+						<img src="assets/img/logo/logo.svg" class="logo logo-scrolled" alt="">
 					</a>
 				</div>
 
@@ -50,8 +50,9 @@
 						</li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-						<li><a href="register.html"><i class="fa fa-sign-in"></i>Sign Up</a></li>
-						<li class="left-br"><a href="javascript:void(0)"  data-toggle="modal" data-target="#signup" class="signin">Sign In Now</a></li>
+						<!-- <li><a href="register.html"><i class="fa fa-sign-in"></i>Sign Up</a></li> -->
+						<li><a href="job-list.html"  data-toggle="modal" data-target="#signup" class="findjob-btn">Find Jobs</a></li>
+						<li><a href="employee-register.php"  class="signin">Post Job</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div>   

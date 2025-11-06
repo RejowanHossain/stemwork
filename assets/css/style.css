@@ -110,7 +110,7 @@ Fonts
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 /*---------- Loader -----------*/
 .no-js #loader {
     display: none;
@@ -147,7 +147,8 @@ body {
 
 body {
     background: #ffffff;
-    font-family: 'Muli', sans-serif;
+    /* font-family: 'Muli', sans-serif; */
+    font-family: "DM Sans", sans-serif;
     position: relative;
     font-size: 15px;
     color: #667488;
@@ -2166,7 +2167,8 @@ Search Filter Style
 nav.navbar.bootsnav ul.nav>li>a {
     color: #ffffff;
     background-color: transparent !important;
-    font-family: "poppins";
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
     /* font-size: 16px; */
 }
 
@@ -9865,6 +9867,7 @@ html body .b-r {
 .new-logwrap .btn-primary {
     padding: 18px 0;
     font-size: 19px;
+    border-radius: 4px;
 }
 
 .social-devider {
@@ -10760,7 +10763,7 @@ button.btn.submit-btn.ft-search {
     /*------------Navigation------*/
     body nav.navbar.bootsnav ul.nav>li>a.signin {
         color: #ffffff !important;
-        border-radius: 2px;
+        border-radius: 4px;
         padding: 8px 20px;
         margin-left: 5px;
     }
@@ -12935,6 +12938,21 @@ a.btn.btn-cancel.manage-btn {
 }
 
 /* NEW CSS REZWAN */
+nav .navbar-collapse ul.navbar-right li a.findjob-btn{
+    border: 1px solid #11b719;
+    padding: 8px 30px;
+    margin-left: 5px;
+    color: #272f46;
+    border-radius: 4px !important;
+}
+nav .navbar-collapse ul.navbar-right li a.signin{
+    border: 1px solid #11b719;
+    border-radius: 8px;
+
+}
+nav .navbar-collapse ul.navbar-right li:last-child{
+    padding-left: 0;
+}
 nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
     font-family: FontAwesome;
     content: "";
@@ -12943,8 +12961,8 @@ nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
 }
 .hero-banner .content p {
    padding: 0 24%;
-   font-family: 'poppins';
    font-size: 16px;
+   font-family: "DM Sans", sans-serif;
 }
 
 .hero-banner .content span{
@@ -12953,4 +12971,25 @@ nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
 .how-it-works{
     padding-top: 0;
     padding-bottom: 80px;
+}
+
+/* verification page */
+.form-row-flex{
+    display: flex;
+}
+.form-row-flex, .mr-20{
+    margin-right: 20px;
+}
+
+.input-with-icon-verify i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+    font-size: 20px;
+    color: #11b719;
+    font-style: normal;
+    cursor: normal;
+    margin-left: 20px;
+
 }
